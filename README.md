@@ -1,5 +1,6 @@
 # A/B
-Simple Rack utility for A/B testing via URL redirect
+
+A/B is a simple Rack utility for A/B testing via URL redirect.
 
 ## Usage
 
@@ -19,3 +20,6 @@ A/B will randomly redirect visitors to either `http://google.com/` or `http://ya
 
 Bundler and Rack availability are assumed. This script has been tested locally using rackup and on a server running Passenger.
 
+## License
+
+A/B is released under the [MIT License](http://www.opensource.org/licenses/MIT).
